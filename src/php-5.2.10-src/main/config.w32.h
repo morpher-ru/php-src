@@ -213,8 +213,8 @@
 /* vs.net 2005 has a 64-bit time_t.  This will likely break
  * 3rdParty libs that were built with older compilers; switch
  * back to 32-bit */
-#define _USE_32BIT_TIME_T 1
-#define HAVE_STDLIB_H 1
+//#define _USE_32BIT_TIME_T 1
+//#define HAVE_STDLIB_H 1
 /* have the arpa\nameser.h header file */
 #define HAVE_ARPA_NAMESER_H 1
 
